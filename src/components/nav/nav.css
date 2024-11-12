@@ -1,0 +1,14 @@
+
+@media (max-width: 500px) {
+    .nav .nav-links,button{
+        display: none;
+    }
+    .nav{
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
