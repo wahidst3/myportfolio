@@ -19,13 +19,13 @@ I’m driven by a love for clean code, intuitive design, and providing seamless 
     <div  className='flex md:flex-row lg:flex-row flex-col md:items-center lg:items-center w-full md:gap-20 lg:gap-20 gap-3
       mb-5 font-bold'> 
       <p className='text-[#2c3e50] text-md'><span className='text-[#868686] font-medium  mr-2'>Name:</span> Wahid Ali</p>
-      <p className='text-[#2c3e50]'><span className='text-[#868686] font-medium mr-2 '>Email:</span> wahid.ali@example.com</p>
+      <p className='text-[#2c3e50]'><span className='text-[#868686] font-medium mr-2 '>Email:</span>ali76wahid@gmail.com</p>
       </div> 
 
       <div className='flex md:flex-row lg:flex-row flex-col md:items-center lg:items-center w-full md:gap-20 lg:gap-20 gap-3
       mb-5 font-bold'> 
-      <p className='text-[#2c3e50] text-md'><span className='text-[#868686] font-medium  mr-2'>Age:</span> 28</p>  
-      <p className='text-[#2c3e50] md:ml-[70px]  lg:ml-[70px]'><span className='text-[#868686] font-medium   '>Tel:</span>: 01234567890</p>
+      <p className='text-[#2c3e50] text-md'><span className='text-[#868686] font-medium  mr-2'>Age:</span> 19</p>  
+      <p className='text-[#2c3e50] md:ml-[70px]  lg:ml-[70px]'><span className='text-[#868686] font-medium   '>Tel:</span>: 03232379368</p>
       </div> 
       <div className='flex md:flex-row lg:flex-row flex-col md:items-center lg:items-center w-full md:gap-20 lg:gap-20 gap-3
       mb-5 font-bold'> 
