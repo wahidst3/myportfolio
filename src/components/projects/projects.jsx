@@ -4,9 +4,9 @@ import eye from '../../assets/eye.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Connectly from "../../assets/connectly.png";
-import lp from "../../assets/lp.png";
-import lex from "../../assets/lex.png";
-import urls from "../../assets/urls.png";
+import lp from "../../assets/lp.PNG";
+import lex from "../../assets/lex.PNG";
+import urls from "../../assets/urls.PNG";
 
 const projects = [
   {
