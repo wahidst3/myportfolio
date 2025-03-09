@@ -42,21 +42,22 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className='w-full h-full md:px-60 lg:px-60 px-7 bg-[#0E1225] projects' id='projects'>
+    <div className='w-full h-full md:px-60 lg:px-60 px-7 bg-[#0E1225] projects' id='projects' >
       <h3 className="text-xl text-[#727272] pt-6">Projects</h3>
       <h5 className="my-2 md:text-4xl lg:text-4xl text-3xl text-white">
         Checkout my <span className="text-blue-500">Latest Projects</span> here
       </h5>
 
       <div className="projects flex items-start w-full gap-10 flex-wrap mt-7">
-        <Swiper
-          spaceBetween={20}
-          slidesPerView={3}
-          breakpoints={{
-            768: { slidesPerView: 2, spaceBetween: 20 },
-            1024: { slidesPerView: 3, spaceBetween: 30 },
-          }}
-        >
+      <Swiper
+  spaceBetween={150}
+  slidesPerView={1} // Default to 1 slide per view
+  breakpoints={{
+    768: { slidesPerView: 2, spaceBetween: 20 }, // Tablets
+    1024: { slidesPerView: 3, spaceBetween: 30 }, // Desktops
+  }}
+>
+
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
               <div className='relative w-[300px] h-[350px] bg-[#18212F] rounded-2xl p-2 shadow-lg'>
