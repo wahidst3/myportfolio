@@ -87,9 +87,9 @@ const services = () => {
             alt="api"
             className="w-14 h-20 mb-2 pt-4"
           />
-          <h4 className="text-lg font-bold">Backend Developement</h4>
+          <h4 className="text-lg font-bold">Backend Develop</h4>
           <p className="text-sm">
-            Implementing APIs and Data management with Express+MongoDB.
+            Creating Full Stack Website with  Express+MongoDB.
           </p>
         </div>
 
