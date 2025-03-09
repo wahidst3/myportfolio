@@ -3,7 +3,7 @@ import '../../../src/App.css';
 import eye from '../../assets/eye.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Connectly from "../../assets/connectly.png";
+import Connectly from "../../assets/connectly.PNG";
 import lp from "../../assets/lp.PNG";
 import lex from "../../assets/lex.PNG";
 import urls from "../../assets/urls.PNG";
