@@ -19,7 +19,7 @@ const nav = () => {
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button className='w-32 py-2 rounded-lg bg-[#161A2D] text-white'><a href="https://www.linkedin.com/in/wahid-ali-467855235/">Connect</a></button>
+      <button className='w-32 py-2 rounded-lg bg-[#161A2D] text-white hover:bg-blue-600 hover:text-white transition-all hover:font-semibold'><a href="https://www.linkedin.com/in/wahid-ali-467855235/">Connect</a></button>
 
 
 <div className={`menu2 md:hidden lg:hidden ${menuVisible? ' block ':'hidden'} absolute p-3 bg-[#0E1225] right-0 top-[83px] py-8 rounded-b-lg z-50 `}

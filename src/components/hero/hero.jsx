@@ -3,7 +3,7 @@ import Pic from '../../assets/ab.png'
 import shape from '../../assets/hero-bg-shape.png'
 import './hero.css'
 import Typed from 'typed.js';
-import Cv from '../../assets/cv.pdf'
+import Cv from '../../assets/cv1.pdf'
 const hero = () => {
   const elHi = useRef(null); // Ref for "HI! I'm"
   const elName = useRef(null); // Ref for "Wahid Ali"
@@ -44,7 +44,7 @@ const hero = () => {
         <h1 className='lg:text-[70px] md:text-[70px] text-[30px] text-white'>A Web Developer </h1>
         <p className='text-[#C4CFDE] md:px-0 lg:px-0  '>I break down complex user experience problems to create integrity focussed solutions that connect billions of people</p>
        
-        <a className='md:w-48 lg:w-48 w-36  py-2 mt-6 border-2 border-blue-500 md:text-lg lg:text-lg text-sm rounded-3xl text-white text-center cursor-pointer' href={Cv} download={true}>Download Resume</a>
+        <a className='md:w-48 lg:w-48 w-36  py-2 mt-6 border-2 border-blue-500 md:text-lg lg:text-lg hover:bg-blue-600 hover:text-white hover:font-semibold transition-all text-sm rounded-3xl text-white text-center cursor-pointer' href={Cv} download={true}>Download Resume</a>
       </div> 
  <div className="right h-[100%]  justify-center md:pt-20 lg:pt-20 pt-12 flex-col flex md:mr-60 lg:mr-60  md:w-[34%] lg:w-[34%] w-[90%]  ">
  <img src={Pic} alt="" className='md:h-[550px] md:w-[700px] lg:h-[550px] lg:w-[700px] w-[500px] md:aspect-auto lg:aspect-auto aspect-square z-100 -mt-10  transform -rotate-0 o'/> 
